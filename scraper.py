@@ -3,7 +3,8 @@ import json
 import requests
 from bs4 import BeautifulSoup
 
-url = "https://www.surf-sentinel.com/surf-report/france/ille-et-vilaine/saint-malo/le-sillon#data-conditions"
+#url = "https://www.surf-sentinel.com/surf-report/france/ille-et-vilaine/saint-malo/le-sillon#data-conditions"
+url = "https://www.surf-sentinel.com/surf-report/france/finistere/plomeur/la-torche"
 
 req = requests.get(url)
 
