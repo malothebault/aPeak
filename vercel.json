@@ -15,7 +15,7 @@
     "crons": [
         {
             "path": "/scraper.py",
-            "schedule": "02 23 * * *"
+            "schedule": "05 23 * * *"
         }
     ]
 }
